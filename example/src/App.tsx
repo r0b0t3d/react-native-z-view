@@ -1,12 +1,12 @@
-import * as React from 'react';
-
-import { StyleSheet, View } from 'react-native';
-import { ZViewView } from 'react-native-z-view';
+import { View, StyleSheet } from 'react-native';
+import { ZView } from 'react-native-z-view';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <ZViewView color="#32a852" style={styles.box} />
+      <ZView left={10} top={10} bottom={10} right={10}>
+        <View style={styles.box} />
+      </ZView>
     </View>
   );
 }
@@ -16,10 +16,12 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
+    backgroundColor: 'red',
   },
   box: {
     width: 60,
     height: 60,
     marginVertical: 20,
+    backgroundColor: 'blue',
   },
 });
