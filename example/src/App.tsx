@@ -1,5 +1,5 @@
 import { View, StyleSheet } from 'react-native';
-import { ZView } from 'react-native-z-view';
+import { ZView } from 'react-native-z-view-upgrade';
 
 export default function App() {
   return (
