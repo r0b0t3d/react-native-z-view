@@ -11303,9 +11303,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"react-native-z-view@workspace:.":
+"react-native-z-view-upgrade@workspace:.":
   version: 0.0.0-use.local
-  resolution: "react-native-z-view@workspace:."
+  resolution: "react-native-z-view-upgrade@workspace:."
   dependencies:
     "@commitlint/config-conventional": ^19.6.0
     "@eslint/compat": ^1.2.7
